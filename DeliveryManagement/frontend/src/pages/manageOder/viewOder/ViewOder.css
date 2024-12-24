@@ -1,0 +1,89 @@
+.vieworder-container {
+    padding-top: 80px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.add{
+    margin-right: 0px;
+    border-radius: 5px;
+    background-color: #f26522;
+}
+
+.add-btn {
+    background-color: #f26522;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px 20px!important;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    background-color: white;
+    border-radius: 5px;
+    gap: 0px;
+}
+
+.search-icon {
+    height: 40px;
+    width: 40px;
+    color: #f26522;
+}
+
+.search-input {
+    background-color: white;
+    border: white !important;
+    margin: 0px;
+    border: 1px solid white;
+    height: 40px;
+    outline: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+thead {
+    background-color: #f4f4f4;
+}
+
+thead th {
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td {
+    white-space: nowrap; /* Giữ văn bản trong một dòng */
+    overflow: hidden; /* Ẩn phần dư nếu dài quá */
+    text-overflow: ellipsis; /* Thêm dấu ... nếu văn bản quá dài */
+}
+
+.table-container {
+    overflow-x: auto; /* Để bảng cuộn ngang nếu vượt kích thước màn hình */
+    margin: 0 auto;
+}

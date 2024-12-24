@@ -1,0 +1,143 @@
+.container-dispatch {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: white;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 80px 20px 80px 20px;
+}
+
+.dispatch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dispatch-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* text-align: left;
+    width: 100%;
+    margin-left: 130px; */
+    color: #f26522;
+}
+
+.shipper-list {
+    display: flex;
+    box-sizing: border-box;
+}
+
+/* Container chung của mỗi card */
+.card-shipper {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 15px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    margin: 10px auto; 
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+/* Ảnh avatar */
+.card-image {
+    width: 30%; /* Chiều rộng ảnh */
+    height: 100%; /* Chiều cao cố định */
+    margin-right: 15px; /* Khoảng cách giữa ảnh và nội dung */
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px; /* Bo tròn ảnh */
+    object-fit: cover; /* Giữ tỉ lệ ảnh */
+}
+
+/* Nội dung bên phải */
+.card-content {
+    flex: 1; /* Phần nội dung mở rộng */
+    display: flex;
+    flex-direction: column; /* Hiển thị nội dung theo chiều dọc */
+    justify-content: center; /* Căn giữa nội dung */
+    color: #333;
+}
+
+.card-content p {
+    margin: 5px 0;
+}
+
+.card-content strong {
+    color: #001f3f; /* Màu nhấn mạnh */
+}
+
+
+.list-assigned {
+    display: flex;
+    gap:10px;
+}
+
+.list-non-assigned {
+   
+}
+
+.order-assigned-card {
+    border: 1px solid #ccc; 
+    width: fit-content;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+
+.list-non-assigned {
+    margin: 0 10px; /* Khoảng cách giữa các phần */
+    display: flex;
+    flex-direction: column; /* Nội dung bên trong xếp theo chiều dọc */
+    align-items: center; /* Căn giữa theo chiều ngang */
+}
+
+.chosse-shipper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.select-shipper {
+    background-color: #f26522;
+    padding: 5px 0px;
+    border-radius: 5px;
+}
+
+.select-list {
+    outline: none;
+    background-color: #f26522;
+    border: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    z-index: 99000;
+    overflow: visible;
+}
+
+.assign-button {
+    cursor: pointer;
+    border: none;
+    background-color: #f26522;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 3px 5px;
+    border-radius: 5px;
+}
